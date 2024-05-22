@@ -1,3 +1,113 @@
 body {
     margin: 0;
+    text-align: center;
+    background-color: #1F2937;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 729px; 
+    border-radius: 1px;
+}
+
+#head {
+    background-color: #6943FF;
+    width: 550px; 
+    height: 285px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+h1 {
+    width: 450x;
+    height: 38px;
+    margin-top: 33px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+input[type="number"] {
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: transparent;
+    font-family: inherit;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.2;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-family: inherit;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#units {
+    width: 550px; 
+    height: 285px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#length, #volume, #mass {
+    background-color: #273549;
+    width: 500px;
+    height: 108.57px;
+    margin-top: 40px;
+    border-radius: 4.68px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #CCC1FF;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;  
+}
+
+p {
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;  
 }
