@@ -33,8 +33,12 @@ button.addEventListener('click', function(){
         results.push(result);
     }
 
+    lengthEl.innerHTML = '';
+    volumeEl.innerHTML = '';
+    kilogramEl.innerHTML = '';
+
     lengthEl.innerHTML = `
-    ${numericValue} meters = ${results[0].toFixed(3)} feet 
+    ${numericValue} meter = ${results[0].toFixed(3)} feet 
     | ${numericValue} feet = ${results[1].toFixed(3)} meters
     `;
 
