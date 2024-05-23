@@ -45,17 +45,17 @@ button.addEventListener('click', function(){
     kilogramEl.innerHTML = '';
 
     lengthEl.innerHTML = `
-    ${numericValue} meter = ${results[0].toFixed(3)} feet 
+    ${numericValue} meters = ${results[0].toFixed(3)} feet 
     | ${numericValue} feet = ${results[1].toFixed(3)} meters
     `;
 
     volumeEl.innerHTML = `
-    ${numericValue} liter = ${results[2].toFixed(3)} gallon 
-    | ${numericValue} gallon = ${results[3].toFixed(3)} litter
+    ${numericValue} liters = ${results[2].toFixed(3)} gallons 
+    | ${numericValue} gallons = ${results[3].toFixed(3)} liters
     `;
 
     kilogramEl.innerHTML = `
-    ${numericValue} kilos = ${results[4].toFixed(3)} pound 
-    | ${numericValue} pound = ${results[5].toFixed(3)} kilos
+    ${numericValue} kilos = ${results[4].toFixed(3)} pounds 
+    | ${numericValue} pounds = ${results[5].toFixed(3)} kilos
     `;   
 });
