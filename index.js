@@ -13,6 +13,13 @@ inputEl.addEventListener('input', function() {
     }
 });
 
+inputEl.addEventListener('keydown', function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        btnEl.click();
+    }
+});
+
 button.addEventListener('click', function(){
     const inputValue = inputEl.value;
     const numericValue = +inputValue; //converting the inputValue to a number
