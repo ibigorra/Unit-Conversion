@@ -33,7 +33,7 @@ button.addEventListener('click', function(){
         { name: 'Value in pounds', func: function(num) { return num * 2.204; } },
         { name: 'Value in kilograms', func: function(num) { return num / 2.204; } },
         { name: 'Value in miles', func: function(num) { return num * 1.6093; } },
-        { name: 'Value in kilometers', func: function(num) { return num / 0.621371; } }
+        { name: 'Value in kilometers', func: function(num) { return num * 0.621; } }
     ];
 
     const results = []; //stores loop results
