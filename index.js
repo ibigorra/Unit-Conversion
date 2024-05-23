@@ -39,12 +39,12 @@ button.addEventListener('click', function(){
     `;
 
     volumeEl.innerHTML = `
-    ${numericValue} meters = ${results[2].toFixed(3)} feet 
-    | ${numericValue} feet = ${results[3].toFixed(3)} meters
+    ${numericValue} liter = ${results[2].toFixed(3)} gallon 
+    | ${numericValue} gallon = ${results[3].toFixed(3)} litter
     `;
 
     kilogramEl.innerHTML = `
-    ${numericValue} meters = ${results[4].toFixed(3)} feet 
-    | ${numericValue} feet = ${results[5].toFixed(3)} meters
+    ${numericValue} kilogram = ${results[4].toFixed(3)} pound 
+    | ${numericValue} pound = ${results[5].toFixed(3)} kilogram
     `;   
 });
