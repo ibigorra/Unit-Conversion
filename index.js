@@ -55,7 +55,7 @@ button.addEventListener('click', function(){
     `;
 
     kilogramEl.innerHTML = `
-    ${numericValue} kilogram = ${results[4].toFixed(3)} pound 
-    | ${numericValue} pound = ${results[5].toFixed(3)} kilogram
+    ${numericValue} kilos = ${results[4].toFixed(3)} pound 
+    | ${numericValue} pound = ${results[5].toFixed(3)} kilos
     `;   
 });
