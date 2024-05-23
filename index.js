@@ -6,6 +6,7 @@ const inputEl = document.getElementById("inputField");
 const lengthEl = document.getElementById("lengthConvertion");
 const volumeEl = document.getElementById("volumeConvertion");
 const kilogramEl = document.getElementById("massConvertion");
+const milesEl = document.getElementById("milesConvertion");
 
 inputEl.addEventListener('input', function() {
     if (this.value.length > 3) {
@@ -30,7 +31,9 @@ button.addEventListener('click', function(){
         { name: 'Value in gallons', func: function(num) { return num * 0.264; } },
         { name: 'Value in liters', func: function(num) { return num / 0.264; } },
         { name: 'Value in pounds', func: function(num) { return num * 2.204; } },
-        { name: 'Value in kilograms', func: function(num) { return num / 2.204; } }
+        { name: 'Value in kilograms', func: function(num) { return num / 2.204; } },
+        { name: 'Value in miles', func: function(num) { return num * 1.6093; } },
+        { name: 'Value in kilometers', func: function(num) { return num / 0.621371; } }
     ];
 
     const results = []; //stores loop results
@@ -57,5 +60,10 @@ button.addEventListener('click', function(){
     kilogramEl.innerHTML = `
     ${numericValue} kilos = ${results[4].toFixed(3)} pounds 
     | ${numericValue} pounds = ${results[5].toFixed(3)} kilos
-    `;   
+    `;
+    
+    milesEl.innerHTML = `
+    ${numericValue} miles = ${results[6].toFixed(3)} kilometers 
+    | ${numericValue} kilometers = ${results[7].toFixed(3)} miles
+    `; 
 });

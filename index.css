@@ -84,7 +84,7 @@ button {
     align-items: center;
 }
 
-#length, #volume, #mass {
+#length, #volume, #mass, #miles {
     background-color: #273549;
     width: 500px;
     height: 108.57px;
